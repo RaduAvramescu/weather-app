@@ -24,7 +24,7 @@ const Result = ({ weather, getDate }) => {
         </Typography>
       </Box>
       <Box className={styles.weatherContainer}>
-        <Box my={3}>
+        <Box my={3} display="flex" justifyContent="center">
           <Typography
             variant="h1"
             component="p"
