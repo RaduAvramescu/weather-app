@@ -62,7 +62,7 @@ const Search = (props) => {
         <SearchIcon />
       </div>
       <InputBase
-        placeholder="Search..."
+        placeholder="Enter location"
         onKeyPress={onKeyPress}
         classes={{
           root: classes.inputRoot,
