@@ -68,7 +68,7 @@ const Search = (props) => {
           root: classes.inputRoot,
           input: classes.inputInput,
         }}
-        aria-label="Search"
+        inputProps={{ "aria-label": "Search" }}
       />
     </div>
   );
